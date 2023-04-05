@@ -1,15 +1,22 @@
-import Calculator from './components/Calculator';
+import { Route, Routes } from 'react-router-dom';
+import Footer from './components/Footer';
+import Home from './components/Home';
+import Navbar from './components/Navbar';
 import Quotes from './components/Quotes';
 import './index.css';
+import Calculator from './components/Calculator';
 
 function App() {
   return (
-    <div className="App">
-      <div className="flex flex-col md:flex-row md:justify-center items-center gap-4 md:items-start mt-10">
-        <Quotes />
-        <Calculator />
-      </div>
-    </div>
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/calculator" element={<Calculator />} />
+        <Route path="/quotes" element={<Quotes />} />
+      </Routes>
+      <Footer />
+    </>
   );
 }
 

@@ -13,7 +13,7 @@
 
 # misc
 .DS_Store
-.env.local
+# .env.local NEED TO CHANGE THIS LATER.
 .env.development.local
 .env.test.local
 .env.production.local

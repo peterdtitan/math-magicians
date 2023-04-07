@@ -6,6 +6,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+      - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -24,7 +25,7 @@
 
 # 📖 Math Magicians<a name="about-project"></a>
 
-**Math Magicians** is a simple online calculator app built with React for the UI.
+**Math Magicians** is a simple online calculator app with quotes built with React for the UI.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -46,6 +47,15 @@
 ### Key Features <a name="key-features"></a>
 
 - **Perform simple calculations**
+- **Display attitude/motivational quotes**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> View a deployed and ready version of the app on [Render](https://math-magicians-vxw1.onrender.com/)
+
+- [Live Demo Link](https://math-magicians-vxw1.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
